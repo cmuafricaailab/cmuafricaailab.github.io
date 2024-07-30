@@ -33,6 +33,64 @@
     </head>
 
     <body>
+        <div class="header">
+            <span class="menu-wrapper">
+                <span class="header-item" onclick="toSection('#title')">
+                    About
+                </span>
+                <span class="header-item" onclick="toSection('#oh')">
+                    OH
+                </span>
+               
+               
+                <span class="header-item" onclick="toSection('#lectures')">
+                    Lectures
+                </span>
+               
+                
+            </span>
+
+         
+        </div>
+
+        <div class="mobile-menu">
+            <div class="menu-exit m-header-item" onclick="hideMenu()">
+                <i class="fas fa-times" aria-hidden="true"></i>
+            </div>
+            <div class="m-header-item" onclick="mobileToSection('#title')">
+                About
+            </div>
+            <div class="m-header-item" onclick="mobileToSection('#oh')">
+                OH
+            </div>
+          
+          
+            <div class="m-header-item" onclick="mobileToSection('#lectures')">
+                Lectures
+            </div>
+           
+            
+          
+           
+        </div>
+
+        <div class="container titlebar">
+            <div class="row">
+                <div class="title-col vcenter" style="color:#A80000;font-weight:bold;text-align:center;width:100%">
+                    <div id="title">
+                        <b>04650:</b> Mathematical Foundation for Machine Learning
+                    </div>
+                    <div class="subtitle"><i>Fall 2024</i>
+                        <br>
+                       
+                        <br>
+                       
+                        <p>In-Person Venue:CMU-Africa F205</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
         
         <!-- SCHEDULE OF LECTURES -->
         <div id="lectures" class="container">
