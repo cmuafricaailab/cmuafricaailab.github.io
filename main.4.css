@@ -24,7 +24,7 @@ code {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #A80000;
+    background-color: #008080;
     font-size: 1.5em;
     color: white;
 }
@@ -60,7 +60,7 @@ code {
 }
 
 .header-item:hover {
-    background-color: #A54B4B;
+    background-color: #008060;
 }
 
 .version-menu {
@@ -94,7 +94,7 @@ code {
 
 .current-icon {
     cursor: auto;
-    background-color: #b96765;
+    background-color: #65b990;
     border-radius: 3px;
     padding-left: 2px;
     padding-right: 2px;
@@ -123,7 +123,7 @@ code {
         cursor: pointer;
     }
     .m-header-item:hover {
-        background-color: #A54B4B;
+        background-color: #008060;
     }
 
     .menu-exit {
@@ -139,7 +139,7 @@ code {
         top: 0;
         height: 100%;
         width: 400px;
-        background-color: #A54B4B;
+        background-color: #46a79f;
 
         -webkit-transition: left 0.06s ease-in-out;
         -o-transition: left 0.06s ease-in-out;
@@ -189,15 +189,15 @@ code {
         left: 0;
         width: 100%;
         font-size: 30px;
-        background-color: #B55B5B;
-        background-color: #A80000;
+        background-color: #47a165;
+        background-color: #008080;
     }
     #menu-button {
         cursor: pointer;
         float: right;
         padding-left: 15px;
         padding-right: 15px;
-        background-color: #AF4F4F;
+        background-color: #46b99c;
         color: white;
         font-size: 40px;
     }
@@ -271,16 +271,16 @@ footer {
 }
 
 h2 {
-    color: #b05145;
+    color: #45b053;
 }
 
 h3 {
-    color: #bf766d;
+    color: #6dbfbf;
     font-weight: 300;
 }
 
 a, a:hover {
-    color: #b05145;
+    color: #39ad96;
 }
 
 .container {
@@ -365,9 +365,7 @@ a, a:hover {
 .rules-table-header {
     border-bottom-width: 1px;
     border-bottom-style: solid;
-}
-.rules-table-bottom {
-    color: rgba(0, 0, 0, 0);
+
     background: rgba(0, 0, 0, 0);
 
     border-top-width: 1px;
